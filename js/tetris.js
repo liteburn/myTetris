@@ -134,7 +134,7 @@ function gameOver()
 
 }
 
-// Events
+// Events       
 // 1. move to bottom
 // 2. move right
 // 3. move left
