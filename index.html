@@ -5,14 +5,19 @@
         <meta charset="UTF-8">
         <title>Tetris Game</title>
         <link rel="stylesheet" href="/css/styles.css">
+
     </head>
     <body>
-        <h1 id="scoreboard">0</h1>
+    <audio controls autoplay loop hidden="true">
+        <source src="audio/tetris-gameboy-02.mp3" type="audio/ogg">
+        <embed src="audio/tetris-gameboy-02.mp3" autoplay="true" loop="true" hidden="true" />
+    </audio>
+
+      <h1 id="scoreboard">0</h1>
       <section id="playground">
       </section>
     </body>
     <script src="/js/constants.js"></script>
-    <script src="/js/initial_values.js"></script>
     <script src="/js/events.js"></script>
     <script src="/js/helper_functions.js"></script>
     <script src="/js/dom.js"></script>
