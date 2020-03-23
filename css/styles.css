@@ -8,7 +8,7 @@ body {
 
 .row {
   display: grid;
-  grid-template-columns: 40px 40px 40px 40px 40px;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
   grid-gap: 8px;
   margin-bottom: 4px;
 }
@@ -36,3 +36,11 @@ body {
   background:#8dd7cf;
   border-color: #1aae9f;
 }
+
+.cell.orange {
+  background: orange;
+  border-color: orangered;
+  border-color: orangered;
+}
+
+

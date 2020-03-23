@@ -1,0 +1,15 @@
+body{
+  position: absolute;
+  left: 45%;
+  margin-left: -50px;
+  top: 40%;
+  margin-top: -50px;
+  background: black;
+}
+
+#to_do{
+    background-image: url("https://nodiceatall.files.wordpress.com/2013/03/tetrislose.jpg");
+    display: block;
+    width: 270px;
+    height: 360px;
+}

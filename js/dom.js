@@ -1,11 +1,11 @@
 // render DOM nodes according to the playground definition
 function renderPlayground() {
   renderPositions();
-  let playgroundNode = document.getElementById('playground')
+  let playgroundNode = document.getElementById('playground');
   playgroundNode.innerHTML = '';
 
   for (let rowIndex = playground.length - 1; rowIndex >= 0; rowIndex-- ) {
-    let rowNode = createRow(rowIndex)
+    let rowNode = createRow(rowIndex);
     for (let cellIndex = 0; cellIndex < playground[rowIndex].length; cellIndex++) {
       rowNode.appendChild(createCell(cellIndex, playground[rowIndex][cellIndex]))
     }

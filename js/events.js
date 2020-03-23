@@ -12,7 +12,11 @@ document.addEventListener("keydown", event => {
     case PAUSE:
       pauseGame();
       break;
+    case NEXT_FIGURE:
+      changeFigure();
+      break;
     default:
       break;
   }
+
 });
