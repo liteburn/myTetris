@@ -1,12 +1,15 @@
 // render DOM nodes according to the playground definition
-function renderPlayground() {
+function renderPlayground()
+{
   renderPositions();
   let playgroundNode = document.getElementById('playground');
   playgroundNode.innerHTML = '';
 
-  for (let rowIndex = playground.length - 1; rowIndex >= 0; rowIndex-- ) {
+  for (let rowIndex = playground.length - 1; rowIndex >= 0; rowIndex-- )
+  {
     let rowNode = createRow(rowIndex);
-    for (let cellIndex = 0; cellIndex < playground[rowIndex].length; cellIndex++) {
+    for (let cellIndex = 0; cellIndex < playground[rowIndex].length; cellIndex++)
+    {
       rowNode.appendChild(createCell(cellIndex, playground[rowIndex][cellIndex]))
     }
     playgroundNode.appendChild(rowNode);
@@ -14,7 +17,8 @@ function renderPlayground() {
 }
 
 // Creates <div class="row" id="row-9">
-function createRow(rowIndex,) {
+function createRow(rowIndex,)
+{
   let rowNode = document.createElement('div');
   rowNode.setAttribute('id', `row-${rowIndex}`);
   rowNode.setAttribute('class', 'row');
@@ -22,7 +26,8 @@ function createRow(rowIndex,) {
 }
 
 // Creates <div class="cell cell-1">1</div>
-function createCell(cellIndex, color) {
+function createCell(cellIndex, color)
+{
   let cellNode = document.createElement('div');
   cellNode.setAttribute('class', `cell cell-${cellIndex} ${color}`);
   return cellNode;

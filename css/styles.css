@@ -2,6 +2,11 @@ body {
   background: #f0f4f7;
 }
 
+h1{
+  margin-left: 430px;
+  color: orangered;
+}
+
 #playground, #playground2 {
   margin: 20px 200px;
 }
@@ -39,7 +44,6 @@ body {
 
 .cell.orange {
   background: orange;
-  border-color: orangered;
   border-color: orangered;
 }
 
