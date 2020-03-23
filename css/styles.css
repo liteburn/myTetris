@@ -3,12 +3,20 @@ body {
 }
 
 h1{
-  margin-left: 1130px;
+  position: absolute;
+  left: 45%;
+  margin-left: 0;
+  top: 10%;
+  margin-top: -50px;
   color: orangered;
 }
 
 #playground, #playground2 {
-  margin: 20px 900px;
+  position: absolute;
+  left: 45%;
+  margin-left: -230px;
+  top: 15%;
+  margin-top: -50px;
 }
 
 .row {
